@@ -1,0 +1,5 @@
+# REUNION CON EL EMPRESARIO
+### LUNES 24 DE ABRIL 2023
+![ADSO2698056PROJECT6](https://github.com/CarsOk/ADSO2698056PROJECT6/blob/main/WhatsApp%20Image%202023-04-24%20at%202.35.41%20PM.jpeg)
+
+>Empezamos reuniéndonos todos y coordinando que todo estuviera perfecto y presentable para dirigirnos hacia el empresario tomamos un taxi hacia la empresa que se llama Paraíso del Artesano llegamos y vimos que era una empresa por decirlo así de prestigio y calidad vendía cosas referentes a nuestra cultura colombiana como lo era el sombrero volteado, las mochilas, hamacas y artesanías carnavaleras esperamos un breve momento, El empresario se presentó y empezamos a entablar una conversación y nos dijo varias cosas relacionadas a su negocio y como funcionaba nosotros nos presentamos cómo aprendices SENA le explicamos el porque de nuestro proyecto, el costo, las ventajas que tendría, etc. luego el nos dijo que tuviéramos compromiso y muchas cosas más luego después de eso el acepto trabajar con nosotros 

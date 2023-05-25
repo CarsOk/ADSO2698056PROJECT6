@@ -34,11 +34,10 @@
 # Especificación de Requerimientos
 
 ## Introducción
-El propósito de este SRS (Software Requirements Specification) es definir los requerimientos del software que permitirá contar los ingresos y las personas que realizan compras en un negocio, incluyendo una página web para subir los productos del negocio y llamar la atención a los clientes potenciales. Este software será utilizado por los propietarios o gerentes de un negocio para mantener un registro preciso de los ingresos y las compras realizadas.
+atravez de las varias problematicas de la empresa PARAISO DEL ARTESANO nosotros los aprendices SENA hemos decidido realizar un software el cual cumplira varias caracteristicas las cuales trataran en su medida de resolver y dar una mejor forma de trabajo y produccion de la empresa PARAISO DEL ARTESANO por medio de la tecnologia y las interconexiones de usuarios
 
 ## 1.1 Propósito
-El propósito de este software es ayudar a los propietarios o gerentes de un negocio a mantener un registro preciso de los ingresos y las compras realizadas. Además, la página web asociada permitirá subir los productos del negocio y atraer la atención de clientes potenciales.
-
+El propósito de este software es ayudar a los propietarios y a los gerentes del negocio a mantener un registro preciso de los ingresos y las compras realizadas. Además, la página web asociada permitirá subir los productos del negocio y atraer la atención de clientes potenciales, atraves de las varias especificaciones y requerimientos se desarrollara un software de estado interconexion el cual pueda hacer que los usuarios potenciales tengan una experiencia facil interactiva y entretenida a la hora de comprar de forma virtual sus productos
 ## 1.2 Alcance
 El software permitirá al usuario registrar los ingresos y las compras realizadas en el negocio, así como también subir los productos a la página web asociada. El software debe ser fácil de usar y permitir una administración efectiva del negocio.
 
@@ -78,7 +77,7 @@ El software debe ser desarrollado para ser utilizado en un negocio específico y
 ### 2.5 Atención y Dependencias
 El software dependerá de una conexión a Internet para poder subir productos y servicios a la página web asociada.
 
-Tienes razón, me disculpo por eso. A continuación te presento las tablas actualizadas para cada RF, incluyendo el proceso y el efecto colateral correspondiente:
+A continuación te presento las tablas actualizadas para cada RF, incluyendo el proceso y el efecto colateral correspondiente:
 <br>
 <br>
 <br>
@@ -88,36 +87,61 @@ Tienes razón, me disculpo por eso. A continuación te presento las tablas actua
 
 | Código | Nombre | Fecha | Grado Necesidad |
 |--------|--------|-------|----------------|
-| RF-01  | Registro de ventas y compras | - | Esencial |
+| RV-01  | Registro de ventas | - | Esencial |
 
 | Descripción |  |
 |-------------|--|
-| Entradas    | Información de ventas y compras a través de escáner de código de barras o manualmente |
-| Fuente      | Personal del negocio y clientes |
-| Salida      | Registro de ventas y compras, base de datos de productos actualizada |
-| Destino     | Registro de ventas y compras: Administración del negocio, Base de datos de productos: Página web |
+| Entradas    | Información de ventas a través de escáner de código de barras o manualmente |
+| Fuente      | Personal del negocio |
+| Salida      | Registro de ventas, base de datos de productos actualizada |
+| Destino     | Registro de ventas: Administración del negocio, Base de datos de productos: Página web |
 | Restricciones | La base de datos de productos debe ser actualizada manualmente por el personal del negocio, y los productos solo podrán ser agregados o eliminados por aquellos con permisos de administrador. |
 
 | Proceso |  |
 |---------|--|
-| 1. Capturar información de ventas y compras. |
-| 2. Verificar que la información ingresada es válida. |
-| 3. Actualizar el registro de ventas y compras. |
+| 1. Capturar información de ventas. |
+| 2. Verificar que la información ingresada de la venta es válida. |
+| 3. Actualizar el registro de las ventas. |
 | 4. Actualizar la base de datos de productos con la información correspondiente. |
 
 | Efecto Colateral |  |
 |-----------------|--|
-| Actualización de la información de ventas y compras en tiempo real. |
+| Actualización de la información de ventas en tiempo real. |
 | Actualización de la base de datos de productos en tiempo real. |
-
-
 
 <br>
 <br>
 
 | Código | Nombre | Fecha | Grado Necesidad |
 |--------|--------|-------|----------------|
-| RF-02  | Base de datos de productos | - | Esencial |
+| RC-02  | Registro de compras | - | Esencial |
+
+| Descripción |  |
+|-------------|--|
+| Entradas    | Información de compras a través de escáner de código de barras o manualmente |
+| Fuente      | Personal del negocio |
+| Salida      | Registro de compras, base de datos de productos actualizada |
+| Destino     | Registro de compras: Administración del negocio, Base de datos de productos: Página web |
+| Restricciones | La base de datos de productos debe ser actualizada manualmente por el personal del negocio, y los productos solo podrán ser agregados o eliminados por aquellos con permisos de administrador. |
+
+| Proceso |  |
+|---------|--|
+| 1. Capturar información de compras. |
+| 2. Verificar que la información ingresada de la compra es válida. |
+| 3. Actualizar el registro de las compras. |
+| 4. Actualizar la base de datos de productos con la información correspondiente. |
+
+| Efecto Colateral |  |
+|-----------------|--|
+| Actualización de la información de compras en tiempo real. |
+| Actualización de la base de datos de productos en tiempo real. |
+
+<br>
+<br>
+
+| Código | Nombre | Fecha | Grado Necesidad |
+|--------|--------|-------|----------------|
+| RB-03  | Base de datos de productos | - | Esencial |
 
 | Descripción |  |
 |-------------|--|
@@ -142,7 +166,7 @@ Tienes razón, me disculpo por eso. A continuación te presento las tablas actua
 
 | Código | Nombre | Fecha | Grado Necesidad |
 |--------|--------|-------|----------------|
-| RF-03  | Integración con sistemas de pago | - | Alta |
+| RI-04  | Integración con sistemas de pago | - | Alta |
 
 | Descripción |  |
 |-------------|--|

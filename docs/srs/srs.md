@@ -39,7 +39,7 @@ atravez de las varias problematicas de la empresa PARAISO DEL ARTESANO nosotros 
 ## 1.1 Propósito
 El propósito de este software es ayudar a los propietarios y a los gerentes del negocio a mantener un registro preciso de los ingresos y las compras realizadas. Además, la página web asociada permitirá subir los productos del negocio y atraer la atención de clientes potenciales, atraves de las varias especificaciones y requerimientos se desarrollara un software de estado interconexion el cual pueda hacer que los usuarios potenciales tengan una experiencia facil interactiva y entretenida a la hora de comprar de forma virtual sus productos
 ## 1.2 Alcance
-El software permitirá al usuario registrar los ingresos y las compras realizadas en el negocio, así como también subir los productos a la página web asociada. El software debe ser fácil de usar y permitir una administración efectiva del negocio.
+El software permitirá al usuario registrar los ingresos y las compras realizadas en el negocio, así como también subir los productos a la página web asociada. El software debe ser fácil de usar y permitir una administración efectiva del negocio. 
 
 ## 1.3 Definiciones, Acrónimos, y Abreviaturas
 - SRS: Software Requirements Specification (Especificación de Requerimientos de Software)
@@ -84,6 +84,32 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 
 # 3.1 Requerimientos funcionales
 
+| Código | Nombre | Fecha | Grado Necesidad |
+|--------|--------|-------|----------------|
+| RR-01  | resgistro de producto | - | Esencial |
+
+| Descripción |  |
+|-------------|--|
+| Entradas    | tipo de artesania y codigo de artesania. |
+| Fuente      | formulario de registro de producto.  |
+| Salida      | producto registrado. |
+| Destino     | base de datos. |
+| Restricciones | N/A |
+
+| Proceso |  |
+|---------|--|
+| 1. registrar el tipo de artesania. |
+| 2. registrar las especificaciones de la Artesania. |
+| 3. otorgar codigo de artesania. |
+| 4. registrar artesania. |
+
+| Efecto Colateral |  |
+|-----------------|--|
+| en caso de que el registro sea errado detener registro borrar casilla errada y rectificar la informacion. |
+| en caso de seguir represntando problema volver a iniciar registro de la artesania para no cometer errorez. |
+
+<br>
+<br>
 
 | Código | Nombre | Fecha | Grado Necesidad |
 |--------|--------|-------|----------------|
@@ -108,7 +134,6 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 |-----------------|--|
 | en caso de errar la contraseña o nombre de ususario vaciar espacios corrrespondidos y volver a ingresar. |
 | tiene un limite de cuatro intentos para ingresar. |
-
 
 <br>
 <br>

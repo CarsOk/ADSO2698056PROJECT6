@@ -87,7 +87,35 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 
 | Código | Nombre | Fecha | Grado Necesidad |
 |--------|--------|-------|----------------|
-| RV-01  | Registro de ventas | - | Esencial |
+| Rl-01  | login | - | Esencial |
+
+| Descripción |  |
+|-------------|--|
+| Entradas    | datos personales (usuarios y contraseñas) |
+| Fuente      | base de datos |
+| Salida      | interfaz de promociones y servicios varios |
+| Destino     | interfaaz de menu principal |
+| Restricciones | solo accedera a ciertos modulos del sistema segun su rol de ususario |
+
+| Proceso |  |
+|---------|--|
+| 1. ingresar nombre de usuario. |
+| 2. ingresar contraseña. |
+| 3. presionar el boton de ingresar. |
+| 4. envio hacia la pagina principal. |
+
+| Efecto Colateral |  |
+|-----------------|--|
+| en caso de errar la contraseña o nombre de ususario vaciar espacios corrrespondidos y volver a ingresar. |
+| tiene un limite de cuatro intentos para ingresar. |
+
+
+<br>
+<br>
+
+| Código | Nombre | Fecha | Grado Necesidad |
+|--------|--------|-------|----------------|
+| RV-02  | Registro de ventas | - | Esencial |
 
 | Descripción |  |
 |-------------|--|
@@ -114,7 +142,7 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 
 | Código | Nombre | Fecha | Grado Necesidad |
 |--------|--------|-------|----------------|
-| RC-02  | Registro de compras | - | Esencial |
+| RC-03  | Registro de compras | - | Esencial |
 
 | Descripción |  |
 |-------------|--|
@@ -141,7 +169,7 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 
 | Código | Nombre | Fecha | Grado Necesidad |
 |--------|--------|-------|----------------|
-| RB-03  | Base de datos de productos | - | Esencial |
+| RB-04  | Base de datos de productos | - | Esencial |
 
 | Descripción |  |
 |-------------|--|
@@ -166,7 +194,7 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 
 | Código | Nombre | Fecha | Grado Necesidad |
 |--------|--------|-------|----------------|
-| RI-04  | Integración con sistemas de pago | - | Alta |
+| RI-05  | Integración con sistemas de pago | - | Alta |
 
 | Descripción |  |
 |-------------|--|

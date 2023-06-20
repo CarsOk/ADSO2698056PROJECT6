@@ -108,14 +108,38 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 |-----------------|--|
 | en caso de errar la contraseña o nombre de ususario vaciar espacios corrrespondidos y volver a ingresar. |
 | tiene un limite de cuatro intentos para ingresar. |
+| Código | Nombre | Fecha | Grado Necesidad |
+|--------|--------|-------|----------------|
+| Rl-01  | login | - | Esencial |
 
+<br>
+<br>
+| Código | Nombre | Fecha | Grado Necesidad |
+|--------|--------|-------|----------------|
+| RP-02  | pedidos | - | Esencial |
+
+
+| Descripción |  |
+|-------------|--|
+| Entradas    |  |
+| Fuente      |  |
+| Salida      |  |
+| Destino     |  |
+| Restricciones |  |
+
+| Proceso |  |
+|---------|--|
+| 1. . |
+| 2. . |
+| 3. . |
+| 4. . |
 
 <br>
 <br>
 
 | Código | Nombre | Fecha | Grado Necesidad |
 |--------|--------|-------|----------------|
-| RV-02  | Registro de ventas | - | Esencial |
+| RV-03  | Registro de ventas | - | Esencial |
 
 | Descripción |  |
 |-------------|--|
@@ -142,7 +166,7 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 
 | Código | Nombre | Fecha | Grado Necesidad |
 |--------|--------|-------|----------------|
-| RC-03  | Registro de compras | - | Esencial |
+| RC-04  | Registro de compras | - | Esencial |
 
 | Descripción |  |
 |-------------|--|
@@ -169,7 +193,7 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 
 | Código | Nombre | Fecha | Grado Necesidad |
 |--------|--------|-------|----------------|
-| RB-04  | Base de datos de productos | - | Esencial |
+| RB-05  | Base de datos de productos | - | Esencial |
 
 | Descripción |  |
 |-------------|--|
@@ -194,7 +218,7 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 
 | Código | Nombre | Fecha | Grado Necesidad |
 |--------|--------|-------|----------------|
-| RI-05  | Integración con sistemas de pago | - | Alta |
+| RI-06  | Integración con sistemas de pago | - | Alta |
 
 | Descripción |  |
 |-------------|--|

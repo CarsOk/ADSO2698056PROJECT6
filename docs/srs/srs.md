@@ -114,25 +114,25 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 
 <br>
 <br>
-| Código | Nombre | Fecha | Grado Necesidad |
+ | Código | Nombre | Fecha | Grado Necesidad |
 |--------|--------|-------|----------------|
-| RP-02  | pedidos | - | Esencial |
-
+| RP-02  | pedido | - | Alta |
 
 | Descripción |  |
 |-------------|--|
-| Entradas    |  |
-| Fuente      |  |
-| Salida      |  |
-| Destino     |  |
-| Restricciones |  |
+| Entradas    | Información de pedido del cliente |
+| Fuente      | Cliente |
+| Salida      | Confirmación del pedido, Base de datos de productos actualizada  |
+| Destino     | Cliente |
+| Restricciones | el pedido debe tener una comfirmacion de pago por parte del cliente, debe el sistema de pedido estar funcionando correctamente. |
 
 | Proceso |  |
 |---------|--|
-| 1. . |
-| 2. . |
-| 3. . |
-| 4. . |
+| 1. Recibir información de pedido del cliente. |
+| 2. Verificar que la información del pedido es válida. |
+| 3. Actualizar el registro de Base de datos de productos. |
+|
+
 
 <br>
 <br>
@@ -218,30 +218,30 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 
 | Código | Nombre | Fecha | Grado Necesidad |
 |--------|--------|-------|----------------|
-| RI-06  | Integración con sistemas de pago | - | Alta |
+| RP-06  | integracion con sistema de pago  | - | Alta |
 
 | Descripción |  |
 |-------------|--|
 | Entradas    | Información de pago del cliente |
 | Fuente      | Cliente |
-| Salida      | Confirmación de pago, registro de ventas y compras actualizado |
+| Salida      |  Confirmación de pago, registro de ventas y compras actualizado  |
 | Destino     | Cliente, Administración del negocio |
-| Restricciones | El sistema de pago debe estar integrado y funcionando correctamente. |
-
+| Restricciones | 
+| El sistema de pago debe estar integrado y funcionando correctamente  | 
 | Proceso |  |
 |---------|--|
 | 1. Recibir información de pago del cliente. |
 | 2. Verificar que la información de pago es válida. |
-| 3. Actualizar el registro de ventas y compras. |
+| 3. Actualizar el registro de compras y ventas. |
 |
 
 <br>
 <br>
-
+ 
 # 3.2 Requerimientos no funcionales
 <br>
 <br>
-¡Claro que sí! A continuación, te presento una tabla con tres requisitos no funcionales adicionales para el software que estamos describiendo:
+A continuación, te presento una tabla con tres requisitos no funcionales adicionales para el software que estamos describiendo:
 
 | Código | Nombre     | Fecha | Grado Necesidad | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |--------|------------|-------|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

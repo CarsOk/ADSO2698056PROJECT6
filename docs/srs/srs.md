@@ -114,6 +114,8 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 
 <br>
 <br>
+
+
  | Código | Nombre | Fecha | Grado Necesidad |
 |--------|--------|-------|----------------|
 | RP-02  | pedido | - | Alta |
@@ -131,7 +133,6 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 | 1. Recibir información de pedido del cliente. |
 | 2. Verificar que la información del pedido es válida. |
 | 3. Actualizar el registro de Base de datos de productos. |
-|
 
 
 <br>
@@ -166,34 +167,7 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 
 | Código | Nombre | Fecha | Grado Necesidad |
 |--------|--------|-------|----------------|
-| RC-04  | Registro de compras | - | Esencial |
-
-| Descripción |  |
-|-------------|--|
-| Entradas    | Información de compras a través de escáner de código de barras o manualmente |
-| Fuente      | Personal del negocio |
-| Salida      | Registro de compras, base de datos de productos actualizada |
-| Destino     | Registro de compras: Administración del negocio, Base de datos de productos: Página web |
-| Restricciones | La base de datos de productos debe ser actualizada manualmente por el personal del negocio, y los productos solo podrán ser agregados o eliminados por aquellos con permisos de administrador. |
-
-| Proceso |  |
-|---------|--|
-| 1. Capturar información de compras. |
-| 2. Verificar que la información ingresada de la compra es válida. |
-| 3. Actualizar el registro de las compras. |
-| 4. Actualizar la base de datos de productos con la información correspondiente. |
-
-| Efecto Colateral |  |
-|-----------------|--|
-| Actualización de la información de compras en tiempo real. |
-| Actualización de la base de datos de productos en tiempo real. |
-
-<br>
-<br>
-
-| Código | Nombre | Fecha | Grado Necesidad |
-|--------|--------|-------|----------------|
-| RB-05  | Base de datos de productos | - | Esencial |
+| RB-04 | Base de datos de productos | - | Esencial |
 
 | Descripción |  |
 |-------------|--|
@@ -218,7 +192,7 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 
 | Código | Nombre | Fecha | Grado Necesidad |
 |--------|--------|-------|----------------|
-| RP-06  | integracion con sistema de pago  | - | Alta |
+| RP-05  | integracion con sistema de pago  | - | Alta |
 
 | Descripción |  |
 |-------------|--|
@@ -233,7 +207,7 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 | 1. Recibir información de pago del cliente. |
 | 2. Verificar que la información de pago es válida. |
 | 3. Actualizar el registro de compras y ventas. |
-|
+
 
 <br>
 <br>

@@ -109,8 +109,7 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 | en caso de errar la contraseña o nombre de ususario vaciar espacios corrrespondidos y volver a ingresar. |
 | tiene un limite de cuatro intentos para ingresar. |
 | Código | Nombre | Fecha | Grado Necesidad |
-|--------|--------|-------|----------------|
-| Rl-01  | login | - | Esencial |
+
 
 <br>
 <br>
@@ -138,6 +137,7 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 <br>
 <br>
 
+
 | Código | Nombre | Fecha | Grado Necesidad |
 |--------|--------|-------|----------------|
 | RV-03  | Registro de ventas | - | Esencial |
@@ -162,8 +162,10 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 | Actualización de la información de ventas en tiempo real. |
 | Actualización de la base de datos de productos en tiempo real. |
 
+
 <br>
 <br>
+
 
 | Código | Nombre | Fecha | Grado Necesidad |
 |--------|--------|-------|----------------|
@@ -187,8 +189,10 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 |-----------------|--|
 | Actualización de la base de datos de productos en tiempo real. |
 
+
 <br>
 <br>
+
 
 | Código | Nombre | Fecha | Grado Necesidad |
 |--------|--------|-------|----------------|
@@ -211,6 +215,55 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 
 <br>
 <br>
+
+
+| Código | Nombre | Fecha | Grado Necesidad |
+|--------|--------|-------|----------------|
+| RP-06  |     PQR  | - | Alta |
+
+| Descripción |  |
+|-------------|--|
+| Entradas    | Información de participacion cliente |
+| Fuente      | Cliente |
+| Salida      | ok muchas gracias por contactarnos estaremos atentos a su opinion  |
+| Destino     | Cliente, Administración del negocio |
+| Restricciones | 
+| debe estar registrado en el sistema  | 
+| Proceso |  |
+|---------|--|
+| el usuario debe dirigirse al apartado de quejas,dudas,reclamos y demas, atraves de este apartado podra expresar su opinion al respecto de lo que desee |
+| Efecto Colateral |  |
+|-----------------|--|
+| puede ser baneado por el mal uso del apartado o utilizar un lenguaje no prudente o lenguaje soez. |
+
+
+<br>
+<br>
+
+
+| Código | Nombre | Fecha | Grado Necesidad |
+|--------|--------|-------|----------------|
+| RR-07  |  registro de usuario  | - | Alta |
+
+| Descripción |  |
+|-------------|--|
+| Entradas    |nombre,apellido,telefono,direccion,correo |
+| Fuente      | formulario de registro de usuario |
+| Salida      | usted ha sido registrado exitosamente  |
+| Destino     | base de datos |
+| Restricciones | 
+| no se puede regisrar un usuario ya existente,solo se puede registrar personas mayores de 18 años  | 
+| Proceso |  |
+|---------|--|
+| En este requerimiento una persona digitará sus datos (Nombre, Identificación correo contraseña, entre otros) a través del formulario de registro, se validará los diferentes datos. Luego, se confirmará si no cumple con alguna de las restricciones de registro |
+| Efecto Colateral |  |
+|-----------------|--|
+| si ingresa un dato de forma incorrecta tendra que hacer el proceso de registro nuevamente. |
+
+
+<br>
+<br>
+
  
 # 3.2 Requerimientos no funcionales
 <br>

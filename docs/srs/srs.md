@@ -5,30 +5,45 @@
 ## Tabla de Contenido
 
 1. Introducción 
-    1.1 Propósito 
-    1.2 Alcance 
-    1.3 Definiciones, Acrónimos, y Abreviaturas 
-    1.4 Referencias 
+    1.1 Propósito
+   
+    1.2 Alcance
+   
+    1.3 Definiciones, Acrónimos, y Abreviaturas
+    
+    1.4 Referencias
+   
     1.5 Apreciación Global 
 
-2. Descripción General 
-    2.1 Perspectivas del Producto 
-    2.2 Funciones del Producto 
-    2.3 Características de Usuario 
-    2.4 Restricciones 
+3. Descripción General 
+    2.1 Perspectivas del Producto
+   
+    2.2 Funciones del Producto
+   
+    2.3 Características de Usuario
+   
+    2.4 Restricciones
+   
     2.5 Atención y Dependencias 
 
-3. Requerimientos Específicos 
-    3.1 Requerimientos Funcionales 
-    3.2 Requerimientos No Funcionales 
+5. Requerimientos Específicos 
+    3.1 Requerimientos Funcionales
+    
+    3.2 Requerimientos No Funcionales
+   
     3.3 Requerimientos de interfaz de usuario 
 
-4. Determinación de las tecnologías de hardware, software y servicios requerido 
-    4.1 Software 
-    4.2 Hosting 
-    4.3 Computador 
-    4.4 Escáner Lector Código de Barras Automático USB Soporte Base 
-    4.5 Router (Router Inalámbrico/Repetidor WiFi N300Mbps, Tp-Link TL-WR840N) 
+7. Determinación de las tecnologías de hardware, software y servicios requerido 
+    4.1 Software
+   
+    4.2 Hosting
+   
+    4.3 Computador
+    
+    4.4 Escáner Lector Código de Barras Automático USB Soporte Base
+    
+    4.5 Router (Router Inalámbrico/Repetidor WiFi N300Mbps, Tp-Link TL-WR840N)
+   
     4.6 Presupuesto
 <br>
 # Especificación de Requerimientos
@@ -91,11 +106,11 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 
 | Descripción |  |
 |-------------|--|
-| Entradas    | datos personales (usuarios y contraseñas) |
-| Fuente      | base de datos |
-| Salida      | interfaz de promociones y servicios varios |
-| Destino     | interfaaz de menu principal |
-| Restricciones | solo accedera a ciertos modulos del sistema segun su rol de ususario |
+| Entradas    | datos personales (usuarios y contraseñas). |
+| Fuente      | base de datos. |
+| Salida      | interfaz de promociones y servicios varios. |
+| Destino     | interfaaz de menu principal. |
+| Restricciones | solo accedera a ciertos modulos del sistema segun su rol de ususario. |
 
 | Proceso |  |
 |---------|--|
@@ -108,12 +123,9 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 |-----------------|--|
 | en caso de errar la contraseña o nombre de ususario vaciar espacios corrrespondidos y volver a ingresar. |
 | tiene un limite de cuatro intentos para ingresar. |
-| Código | Nombre | Fecha | Grado Necesidad |
-
 
 <br>
 <br>
-
 
  | Código | Nombre | Fecha | Grado Necesidad |
 |--------|--------|-------|----------------|
@@ -121,10 +133,10 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 
 | Descripción |  |
 |-------------|--|
-| Entradas    | Información de pedido del cliente |
-| Fuente      | Cliente |
-| Salida      | Confirmación del pedido, Base de datos de productos actualizada  |
-| Destino     | Cliente |
+| Entradas    | Información de pedido del cliente. |
+| Fuente      | Cliente. |
+| Salida      | Confirmación del pedido, Base de datos de productos actualizada.  |
+| Destino     | Cliente. |
 | Restricciones | el pedido debe tener una comfirmacion de pago por parte del cliente, debe el sistema de pedido estar funcionando correctamente. |
 
 | Proceso |  |
@@ -133,10 +145,8 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 | 2. Verificar que la información del pedido es válida. |
 | 3. Actualizar el registro de Base de datos de productos. |
 
-
 <br>
 <br>
-
 
 | Código | Nombre | Fecha | Grado Necesidad |
 |--------|--------|-------|----------------|
@@ -144,11 +154,12 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 
 | Descripción |  |
 |-------------|--|
-| Entradas    | Información de ventas a través de escáner de código de barras o manualmente |
-| Fuente      | Personal del negocio |
-| Salida      | Registro de ventas, base de datos de productos actualizada |
-| Destino     | Registro de ventas: Administración del negocio, Base de datos de productos: Página web |
-| Restricciones | La base de datos de productos debe ser actualizada manualmente por el personal del negocio, y los productos solo podrán ser agregados o eliminados por aquellos con permisos de administrador. |
+| Entradas    | Información de ventas a través de escáner de código de barras o manualmente. |
+| Fuente      | Personal del negocio. |
+| Salida      | Registro de ventas, base de datos de productos actualizada. |
+| Destino     | Registro de ventas: Administración del negocio, Base de datos de productos: Página web. |
+| Restricciones | La base de datos de productos debe ser actualizada manualmente por el personal del negocio. |
+| los productos solo podrán ser agregados o eliminados por aquellos con permisos de administrador. |
 
 | Proceso |  |
 |---------|--|
@@ -162,10 +173,8 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 | Actualización de la información de ventas en tiempo real. |
 | Actualización de la base de datos de productos en tiempo real. |
 
-
 <br>
 <br>
-
 
 | Código | Nombre | Fecha | Grado Necesidad |
 |--------|--------|-------|----------------|
@@ -173,10 +182,10 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 
 | Descripción |  |
 |-------------|--|
-| Entradas    | Información de productos a través de formulario en línea o manualmente |
-| Fuente      | Personal del negocio |
-| Salida      | Base de datos de productos actualizada |
-| Destino     | Base de datos de productos: Página web |
+| Entradas    | Información de productos a través de formulario en línea o manualmente. |
+| Fuente      | Personal del negocio. |
+| Salida      | Base de datos de productos actualizada. |
+| Destino     | Base de datos de productos: Página web. |
 | Restricciones | Los productos solo podrán ser agregados o eliminados por aquellos con permisos de administrador. |
 
 | Proceso |  |
@@ -189,10 +198,8 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 |-----------------|--|
 | Actualización de la base de datos de productos en tiempo real. |
 
-
 <br>
 <br>
-
 
 | Código | Nombre | Fecha | Grado Necesidad |
 |--------|--------|-------|----------------|
@@ -200,22 +207,21 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 
 | Descripción |  |
 |-------------|--|
-| Entradas    | Información de pago del cliente |
-| Fuente      | Cliente |
-| Salida      |  Confirmación de pago, registro de ventas y compras actualizado  |
-| Destino     | Cliente, Administración del negocio |
+| Entradas    | Información de pago del cliente. |
+| Fuente      | Cliente. |
+| Salida      |  Confirmación de pago, registro de ventas y compras actualizado. |
+| Destino     | Cliente, Administración del negocio. |
 | Restricciones | 
-| El sistema de pago debe estar integrado y funcionando correctamente  | 
+| El sistema de pago debe estar integrado y funcionando correctamente. | 
+
 | Proceso |  |
 |---------|--|
 | 1. Recibir información de pago del cliente. |
 | 2. Verificar que la información de pago es válida. |
 | 3. Actualizar el registro de compras y ventas. |
 
-
 <br>
 <br>
-
 
 | Código | Nombre | Fecha | Grado Necesidad |
 |--------|--------|-------|----------------|
@@ -223,15 +229,17 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 
 | Descripción |  |
 |-------------|--|
-| Entradas    | Información de participacion cliente |
-| Fuente      | Cliente |
-| Salida      | ok muchas gracias por contactarnos estaremos atentos a su opinion  |
-| Destino     | Cliente, Administración del negocio |
+| Entradas    | Información de participacion cliente. |
+| Fuente      | Cliente. |
+| Salida      | ok muchas gracias por contactarnos estaremos atentos a su opinion.  |
+| Destino     | Cliente, Administración del negocio. |
 | Restricciones | 
-| debe estar registrado en el sistema  | 
+| debe estar registrado en el sistema.  | 
 | Proceso |  |
 |---------|--|
-| el usuario debe dirigirse al apartado de quejas,dudas,reclamos y demas, atraves de este apartado podra expresar su opinion al respecto de lo que desee |
+| el usuario debe dirigirse al apartado de quejas,dudas,reclamos y demas. |
+|  atraves de este apartado podra expresar su opinion al respecto de lo que desee. |
+
 | Efecto Colateral |  |
 |-----------------|--|
 | puede ser baneado por el mal uso del apartado o utilizar un lenguaje no prudente o lenguaje soez. |
@@ -247,23 +255,22 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 
 | Descripción |  |
 |-------------|--|
-| Entradas    |nombre,apellido,telefono,direccion,correo |
-| Fuente      | formulario de registro de usuario |
-| Salida      | usted ha sido registrado exitosamente  |
-| Destino     | base de datos |
+| Entradas    |nombre,apellido,telefono,direccion,correo. |
+| Fuente      | formulario de registro de usuario. |
+| Salida      | usted ha sido registrado exitosamente. |
+| Destino     | base de datos. |
 | Restricciones | 
-| no se puede regisrar un usuario ya existente,solo se puede registrar personas mayores de 18 años  | 
+| no se puede regisrar un usuario ya existente,solo se puede registrar personas mayores de 18 años. | 
 | Proceso |  |
 |---------|--|
-| En este requerimiento una persona digitará sus datos (Nombre, Identificación correo contraseña, entre otros) a través del formulario de registro, se validará los diferentes datos. Luego, se confirmará si no cumple con alguna de las restricciones de registro |
+| En este requerimiento una persona digitará sus datos (Nombre, Identificación correo contraseña, entre otros) a través del formulario de registro, se validará los diferentes datos. Luego, se confirmará si no cumple con alguna de las restricciones de registro. |
+
 | Efecto Colateral |  |
 |-----------------|--|
 | si ingresa un dato de forma incorrecta tendra que hacer el proceso de registro nuevamente. |
 
-
 <br>
 <br>
-
  
 # 3.2 Requerimientos no funcionales
 <br>

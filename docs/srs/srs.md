@@ -4,7 +4,8 @@
 
 ## Tabla de Contenido
 
-1. Introducción 
+1. Introducción
+   
     1.1 Propósito
    
     1.2 Alcance
@@ -15,7 +16,8 @@
    
     1.5 Apreciación Global 
 
-3. Descripción General 
+3. Descripción General
+   
     2.1 Perspectivas del Producto
    
     2.2 Funciones del Producto
@@ -26,14 +28,16 @@
    
     2.5 Atención y Dependencias 
 
-5. Requerimientos Específicos 
+5. Requerimientos Específicos
+   
     3.1 Requerimientos Funcionales
     
     3.2 Requerimientos No Funcionales
    
     3.3 Requerimientos de interfaz de usuario 
 
-7. Determinación de las tecnologías de hardware, software y servicios requerido 
+7. Determinación de las tecnologías de hardware, software y servicios requerido
+    
     4.1 Software
    
     4.2 Hosting
@@ -46,17 +50,23 @@
    
     4.6 Presupuesto
 <br>
+
 # Especificación de Requerimientos
 
 ## Introducción
+
 atravez de las varias problematicas de la empresa PARAISO DEL ARTESANO nosotros los aprendices SENA hemos decidido realizar un software el cual cumplira varias caracteristicas las cuales trataran en su medida de resolver y dar una mejor forma de trabajo y produccion de la empresa PARAISO DEL ARTESANO por medio de la tecnologia y las interconexiones de usuarios
 
 ## 1.1 Propósito
+
 El propósito de este software es ayudar a los propietarios y a los gerentes del negocio a mantener un registro preciso de los ingresos y las compras realizadas. Además, la página web asociada permitirá subir los productos del negocio y atraer la atención de clientes potenciales, atraves de las varias especificaciones y requerimientos se desarrollara un software de estado interconexion el cual pueda hacer que los usuarios potenciales tengan una experiencia facil interactiva y entretenida a la hora de comprar de forma virtual sus productos
+
 ## 1.2 Alcance
-El software permitirá al usuario registrar los ingresos y las compras realizadas en el negocio, así como también subir los productos a la página web asociada. El software debe ser fácil de usar y permitir una administración efectiva del negocio.
+
+El software permitirá al usuario registrar los ingresos y las compras realizadas en el negocio, así como también subir los productos a la página web asociada. El software debe ser fácil de usar y permitir una administración efectiva del negocio por otra parte nosotros como apredices SENA no nos comprometemos a dar capacitaciones a mas de un centro de la empresa PARAISO DEL ARTESANO, nosotros como aprendices SENA no nos comprometemos a los daños y perjucios que tenga el software por el al uso del mismo, nosotros como aprendices SENA no nos comprometemos al mal registro en la base de datos de productos,nosotros como aprendices SENA no nos comprometemos a realizar actualizacion despues de haber entregado nuestro producto(software) a la empresa PARAISO DEL ARTESANO, nosotros como aprendices SENA no nos comprometemos a pagar el alquiler del servidor luego de entrgar el producto(software) a la empresa EL PARAISO DEL ARTESANO 
 
 ## 1.3 Definiciones, Acrónimos, y Abreviaturas
+
 - SRS: Software Requirements Specification (Especificación de Requerimientos de Software)
 - Usuario: Propietario o gerente del negocio que utilizará el software.
 - Ingresos: El dinero que entra en el negocio.
@@ -65,17 +75,22 @@ El software permitirá al usuario registrar los ingresos y las compras realizada
 - Cliente potencial: Persona interesada en los productos y servicios ofrecidos por el negocio.
 
 ## 1.4 Referencias
+
 No aplicable.
 
 
 ## 1.5 Apreciación Global
+
 El software que se desarrollará permitirá una gestión efectiva del negocio al mantener un registro preciso de los ingresos y las compras realizadas. Además, la página web asociada permitirá una mayor exposición del negocio a potenciales clientes.
 
 ## 2. Descripción General
+
 ### 2.1 Perspectivas del Producto
+
 El software se desarrollará para ser utilizado en un negocio. Será una aplicación de escritorio con una página web asociada. La aplicación de escritorio permitirá al usuario registrar los ingresos y las compras realizadas en el negocio, mientras que la página web permitirá subir los productos y servicios ofrecidos por el negocio para su exposición a clientes potenciales.
 
 ### 2.2 Funciones del Producto
+
 Las funciones del software incluirán:
 - Registro de ingresos y compras.
 - Visualización de informes de ingresos y compras.
@@ -84,12 +99,15 @@ Las funciones del software incluirán:
 - Permitir que los clientes realicen compras en línea.
 
 ### 2.3 Características de Usuario
+
 El usuario del software será el propietario o gerente del negocio. Se espera que tenga conocimientos básicos de informática y que sea capaz de utilizar una aplicación de escritorio y una página web.
 
 ### 2.4 Restricciones
+
 El software debe ser desarrollado para ser utilizado en un negocio específico y no se prevé que sea escalable a múltiples negocios. Además, el software sólo permitirá una sola sesión de usuario a la vez.
 
 ### 2.5 Atención y Dependencias
+
 El software dependerá de una conexión a Internet para poder subir productos y servicios a la página web asociada.
 
 A continuación te presento las tablas actualizadas para cada RF, incluyendo el proceso y el efecto colateral correspondiente:
@@ -135,7 +153,7 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 |-------------|--|
 | Entradas    | Información de pedido del cliente. |
 | Fuente      | Cliente. |
-| Salida      | Confirmación del pedido, Base de datos de productos actualizada.  |
+| Salida      | realizacion del pedido exitosa.  |
 | Destino     | Cliente. |
 | Restricciones | el pedido debe tener una comfirmacion de pago por parte del cliente, debe el sistema de pedido estar funcionando correctamente. |
 
@@ -144,6 +162,11 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 | 1. Recibir información de pedido del cliente. |
 | 2. Verificar que la información del pedido es válida. |
 | 3. Actualizar el registro de Base de datos de productos. |
+
+| Efecto Colateral |  |
+|-----------------|--|
+| en casos de la mala realizacion del pedido se anulara el pedido . |
+|  Base de datos de productos actualizada. |
 
 <br>
 <br>
@@ -235,6 +258,7 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 | Destino     | Cliente, Administración del negocio. |
 | Restricciones | 
 | debe estar registrado en el sistema.  | 
+
 | Proceso |  |
 |---------|--|
 | el usuario debe dirigirse al apartado de quejas,dudas,reclamos y demas. |
@@ -242,7 +266,7 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 
 | Efecto Colateral |  |
 |-----------------|--|
-| puede ser baneado por el mal uso del apartado o utilizar un lenguaje no prudente o lenguaje soez. |
+| puede ser eliminado por el mal uso del apartado o utilizar un lenguaje no prudente o lenguaje soez. |
 
 
 <br>
@@ -261,6 +285,7 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 | Destino     | base de datos. |
 | Restricciones | 
 | no se puede regisrar un usuario ya existente,solo se puede registrar personas mayores de 18 años. | 
+
 | Proceso |  |
 |---------|--|
 | En este requerimiento una persona digitará sus datos (Nombre, Identificación correo contraseña, entre otros) a través del formulario de registro, se validará los diferentes datos. Luego, se confirmará si no cumple con alguna de las restricciones de registro. |
@@ -287,7 +312,6 @@ A continuación, te presento una tabla con tres requisitos no funcionales adicio
 # 3.3 Requerimientos de interfaz de usuario
 
 <br>
-¡Disculpa por la confusión anterior! Aquí te dejo la misma tabla sin la columna de fecha:
 
 | Código   | Nombre                                      | Grado Necesidad |
 |----------|---------------------------------------------|---------------------|

@@ -92,10 +92,15 @@ El software se desarrollará para ser utilizado en un negocio. Será una aplicac
 ### 2.2 Funciones del Producto
 
 Las funciones del software incluirán:
+
 - Registro de ingresos y compras.
+  
 - Visualización de informes de ingresos y compras.
+  
 - Subir productos y servicios a la página web asociada.
+  
 - Actualizar y eliminar productos y servicios de la página web.
+  
 - Permitir que los clientes realicen compras en línea.
 
 ### 2.3 Características de Usuario
@@ -138,7 +143,7 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 | 4. envio hacia la pagina principal. |
 
 | Efecto Colateral |  |
-|-----------------|--|
+|------------------|--|
 | en caso de errar la contraseña o nombre de ususario vaciar espacios corrrespondidos y volver a ingresar. |
 | tiene un limite de cuatro intentos para ingresar. |
 
@@ -164,7 +169,7 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 | 3. Actualizar el registro de Base de datos de productos. |
 
 | Efecto Colateral |  |
-|-----------------|--|
+|------------------|--|
 | en casos de la mala realizacion del pedido se anulara el pedido . |
 |  Base de datos de productos actualizada. |
 
@@ -192,7 +197,7 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 | 4. Actualizar la base de datos de productos con la información correspondiente. |
 
 | Efecto Colateral |  |
-|-----------------|--|
+|------------------|--|
 | Actualización de la información de ventas en tiempo real. |
 | Actualización de la base de datos de productos en tiempo real. |
 
@@ -218,7 +223,7 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 | 3. Actualizar la base de datos de productos. |
 
 | Efecto Colateral |  |
-|-----------------|--|
+|------------------|--|
 | Actualización de la base de datos de productos en tiempo real. |
 
 <br>
@@ -265,7 +270,7 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 |  atraves de este apartado podra expresar su opinion al respecto de lo que desee. |
 
 | Efecto Colateral |  |
-|-----------------|--|
+|------------------|--|
 | puede ser eliminado por el mal uso del apartado o utilizar un lenguaje no prudente o lenguaje soez. |
 
 
@@ -291,7 +296,7 @@ A continuación te presento las tablas actualizadas para cada RF, incluyendo el 
 | En este requerimiento una persona digitará sus datos (Nombre, Identificación correo contraseña, entre otros) a través del formulario de registro, se validará los diferentes datos. Luego, se confirmará si no cumple con alguna de las restricciones de registro. |
 
 | Efecto Colateral |  |
-|-----------------|--|
+|------------------|--|
 | si ingresa un dato de forma incorrecta tendra que hacer el proceso de registro nuevamente. |
 
 <br>

@@ -1,0 +1,42 @@
+body {
+  background: #56ab2f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container-fluid{
+  background: #215f00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #e4e4d9, #215f00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #e4e4d9, #215f00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 10px;
+}
+a{
+  color: #fff;
+}
+
+/* Estilos personalizados para el carrusel */
+.carousel-item img {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  object-fit: contain; /* Ajuste del tamaño sin deformar */
+}
+
+.centrar {
+  text-align: left;
+  margin-top: 10px;
+  }
+.card {
+  background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.fas.fa-shopping-cart {
+  color: rgb(1, 48, 1); 
+  font-size: 36px;
+}
+.botoncolor{
+  background: #215f00;
+  border-radius: 35px;
+}
